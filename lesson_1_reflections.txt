@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helped me a lot to figure out the differences between the two files for
+	a simple reason:
+		it saved me a lot of time to find out the error line;
+	Nonetheless, using a command line to find a typo is difficult and time consuming,
+	but respect with non using a diff (or fc) command it's much easier.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Making available an entire history of file allow me to get back an old file
+	that represents a good source code for my program. With a change of mind we
+	can reuse the same old file instead of the new file that we thought was the
+	correct one.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: you can choose when to commit the changes. This is an extremely flexible
+	way to maintain diverse versions of your file. You change ONLY when the functionality
+	is implemented in a reasonable time and probably you commit when the code seems
+	to be ok.
+	Cons: if the programmer forget to commit, it can be happen that an unexpected
+	shutdown can lose all of your work or the differences between the 2 versions are
+	very huge.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is a version control system, with in mind the control of diverse versions 
+	of source code. It can happen that two or more files will be affected and 
+	the commit must take into account this changes together because the file
+	can be much correlated. Other version control systems, like Google Docs, don't
+	have in mind the control of source code and is not needed that many files
+	must be controled at the same time. Google Docs treats each file separately
+	and so there is no interrelation between them
+
+How can you use the commands git log and git diff to view the history of files?
+
+    With git log we can view the entire history of files. For each commit, we have
+	some or all files modifed. When we want to see the differences between two
+	adjacent commits we type 'diff' followed by ids of old and successive commit.
+	The 'diff' output contains the lines added and the lines deleted. To easily 
+	visualize the differences, we can set the global 'color.ui' to 'auto' and 
+	the deleted lines will appear red, instead the added lines will appear green.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
