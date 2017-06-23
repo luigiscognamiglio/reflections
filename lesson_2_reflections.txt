@@ -1,0 +1,25 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	A git repository can be created with 'git init' command. In the current
+	directory will be created e '.git' directory that, in some OSes, will be
+	hidden beacuse of dot character as prefix. In the .git directory there are
+	metadata files that are used by git to maintain history of files and repository
+	changes in general. Initialy git doesn't create a first commit and that
+	will be issued by the programmer passing a explicative message.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
